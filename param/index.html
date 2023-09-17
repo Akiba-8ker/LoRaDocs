@@ -267,8 +267,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#lr" class="md-nav__link">
-    LR
+  <a href="#lrlora-rate" class="md-nav__link">
+    LR(LoRa Rate)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#send-mode" class="md-nav__link">
+    Send Mode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rssi" class="md-nav__link">
+    RSSI
   </a>
   
 </li>
@@ -322,8 +336,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#lr" class="md-nav__link">
-    LR
+  <a href="#lrlora-rate" class="md-nav__link">
+    LR(LoRa Rate)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#send-mode" class="md-nav__link">
+    Send Mode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rssi" class="md-nav__link">
+    RSSI
   </a>
   
 </li>
@@ -370,7 +398,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="lr">LR</h2>
+<h2 id="lrlora-rate">LR(LoRa Rate)</h2>
 <p>転送レートやSF値、バンド幅は下記値で設定できます。</p>
 <table>
 <thead>
@@ -492,6 +520,31 @@
 </tr>
 </tbody>
 </table>
+<h2 id="send-mode">Send Mode</h2>
+<p>Send Modeでは、トランスペアレント送信モードと固定送信モードが選択できます。トランスペアレント送信モードでは、同じアドレス, 同じチャンネルを設定した端末に一斉に送信されます。固定送信モードでは、指定したアドレス、指定したチャンネルの端末にデータ送信できます。</p>
+<table>
+<thead>
+<tr>
+<th align="left">Value</th>
+<th align="left">モード</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">0</td>
+<td align="left">トランスペアレント送信モード</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">固定送信モード</td>
+</tr>
+</tbody>
+</table>
+<h2 id="rssi">RSSI</h2>
+<p>RSSIバイトの有効化をおこなうと、RSSI強度も出力されます。</p>
+<p>RSSIからdBmへの変換は</p>
+<div class="highlight"><pre><span></span><code>dBm = - (256 - RSSI)
+</code></pre></div>
 
 
 
