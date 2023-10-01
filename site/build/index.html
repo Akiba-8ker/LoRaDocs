@@ -14,7 +14,7 @@
     
     
       
-        <title>開発環境 - LoRa Communicater Docs</title>
+        <title>組立手順 - LoRa Communicater Docs</title>
       
     
     
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              開発環境
+              組立手順
             
           </span>
         </div>
@@ -181,21 +181,6 @@
 
   
   
-  
-    <li class="md-nav__item">
-      <a href="../build/" class="md-nav__link">
-        組立手順
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
     
   
   
@@ -207,12 +192,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          開発環境
+          組立手順
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        開発環境
+        組立手順
       </a>
       
         
@@ -229,15 +214,92 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#lora-communicator" class="md-nav__link">
-    LoRa Communicatorの開発環境
+  <a href="#1a" class="md-nav__link">
+    1.基板Aにタクトスイッチをはめる。
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#arduino-ide" class="md-nav__link">
-    Arduino IDEの設定
+  <a href="#2" class="md-nav__link">
+    2.はめたタクトスイッチを裏面にし、はんだ付けをしていく。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3.青色の抵抗(金属皮膜抵抗)とベージュ色の抵抗(カーボン抵抗)をはんだ付けをし、余分な箇所はペンチで切る。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4.圧電スピーカー、スライドスイッチ、ピンソケットをはんだ付けする。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    5.分割ロングピンソケットを穴にあわせて切りはんだ付けする。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    6.ディスプレイをネジで固定する。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7raspberry-pi-pico" class="md-nav__link">
+    7.Ｒａｓｐｂｅｒｒｙ Ｐｉ Ｐｉｃｏをつける。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8b" class="md-nav__link">
+    8.基板Bに電池ボックスをはめ込みネジで固定する。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#93mm" class="md-nav__link">
+    ９.赤色・黒色線の両端のビニル部分をニッパーで3mmほどはがす。赤色の線は＋(プラス)へ、黒色の線は−(マイナス)へ電池ボックスへはめ、はんだ付けする。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10a" class="md-nav__link">
+    10.赤色・黒色の線の片一方は、基板Aの裏側の穴へ入れ(赤色の線は＋へ、黒色の線は−へ)、表側からはんだ付けする。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11ab4" class="md-nav__link">
+    11.基板Aと基板Bを合わせ角の４箇所をネジで固定する。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12loralora" class="md-nav__link">
+    12.ＬｏＲａモジュールの穴の数にあわせてピンヘッダを切る。本体にピンヘッダ、ＬｏＲａモジュールを差し込みはんだ付けする。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13lora" class="md-nav__link">
+    13.最後にＬｏＲａ用アンテナをつけ完成。
   </a>
   
 </li>
@@ -246,6 +308,21 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dev/" class="md-nav__link">
+        開発環境
+      </a>
     </li>
   
 
@@ -320,15 +397,92 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#lora-communicator" class="md-nav__link">
-    LoRa Communicatorの開発環境
+  <a href="#1a" class="md-nav__link">
+    1.基板Aにタクトスイッチをはめる。
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#arduino-ide" class="md-nav__link">
-    Arduino IDEの設定
+  <a href="#2" class="md-nav__link">
+    2.はめたタクトスイッチを裏面にし、はんだ付けをしていく。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3.青色の抵抗(金属皮膜抵抗)とベージュ色の抵抗(カーボン抵抗)をはんだ付けをし、余分な箇所はペンチで切る。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4.圧電スピーカー、スライドスイッチ、ピンソケットをはんだ付けする。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    5.分割ロングピンソケットを穴にあわせて切りはんだ付けする。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    6.ディスプレイをネジで固定する。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7raspberry-pi-pico" class="md-nav__link">
+    7.Ｒａｓｐｂｅｒｒｙ Ｐｉ Ｐｉｃｏをつける。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8b" class="md-nav__link">
+    8.基板Bに電池ボックスをはめ込みネジで固定する。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#93mm" class="md-nav__link">
+    ９.赤色・黒色線の両端のビニル部分をニッパーで3mmほどはがす。赤色の線は＋(プラス)へ、黒色の線は−(マイナス)へ電池ボックスへはめ、はんだ付けする。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10a" class="md-nav__link">
+    10.赤色・黒色の線の片一方は、基板Aの裏側の穴へ入れ(赤色の線は＋へ、黒色の線は−へ)、表側からはんだ付けする。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11ab4" class="md-nav__link">
+    11.基板Aと基板Bを合わせ角の４箇所をネジで固定する。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12loralora" class="md-nav__link">
+    12.ＬｏＲａモジュールの穴の数にあわせてピンヘッダを切る。本体にピンヘッダ、ＬｏＲａモジュールを差し込みはんだ付けする。
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13lora" class="md-nav__link">
+    13.最後にＬｏＲａ用アンテナをつけ完成。
   </a>
   
 </li>
@@ -346,19 +500,37 @@
               
                 
                 
-                <h1 id="_1">開発環境の構築</h1>
-<h2 id="lora-communicator">LoRa Communicatorの開発環境</h2>
-<p>LoRa Communicatorは、Arduino IDEでおこないます。</p>
-<p><a href="https://www.arduino.cc/en/software">Arduinoのページ</a>よりArduio IDE(バージョン2.x)をダウンロードしてください。</p>
-<h2 id="arduino-ide">Arduino IDEの設定</h2>
-<p>Arduino IDEでのRaspberryPi Pico向けの開発は、Arduino Mbed OS RP2040 Boardsを使用します。
-Arduino IDEのメニューから、<code>[Tools]-[Board]-[Boards Manager...]</code>を選択します。</p>
-<p><img alt="" src="../img/arduino01.png" /></p>
-<p>左に出てくるメニューで、Arduino Mbed OS RP2040 Boardsの<code>[Install]</code>を選択します。</p>
-<p><img alt="" src="../img/arduino02.png" /></p>
-<p>Arduino IDEのメニューから、<code>[Tools]-[Board]-[Arduino Mbed OS RP2040]-[RaspberryPi Pico</code>が表示されます。</p>
-<p><img alt="" src="../img/arduino03.png" /></p>
-<p>これで準備完了です。</p>
+                <h1 id="_1">組立手順</h1>
+<h2 id="1a">1.基板Aにタクトスイッチをはめる。</h2>
+<p><img alt="" src="../img/build001.png" /></p>
+<h2 id="2">2.はめたタクトスイッチを裏面にし、はんだ付けをしていく。</h2>
+<p><br>ポイント：タクトスイッチがズレていないか確認しつつはんだ付けをしていく。<br>ポイント：はんだは穴に流し込むように付ける。
+<img alt="" src="../img/build002.png" /></p>
+<h2 id="3">3.青色の抵抗(金属皮膜抵抗)とベージュ色の抵抗(カーボン抵抗)をはんだ付けをし、余分な箇所はペンチで切る。</h2>
+<p><br>ポイント：はんだ付けをしながら抵抗の金属部分に触れると熱いので注意すること。
+<img alt="" src="../img/build003.png" /></p>
+<h2 id="4">4.圧電スピーカー、スライドスイッチ、ピンソケットをはんだ付けする。</h2>
+<p><img alt="" src="../img/build004.png" /></p>
+<h2 id="5">5.分割ロングピンソケットを穴にあわせて切りはんだ付けする。</h2>
+<p><br>ポイント：分割ロングピンソケットを切る際は、中身の金具部分が誤って見えてしまわないよう注意しながら切る。
+<img alt="" src="../img/build005.png" /></p>
+<h2 id="6">6.ディスプレイをネジで固定する。</h2>
+<p><br>ポイント：4箇所の角をネジ・ディスプレイ・スペーサーで合わせ、ナットで固定するとスムーズです。
+<img alt="" src="../img/build006.png" /></p>
+<h2 id="7raspberry-pi-pico">7.Ｒａｓｐｂｅｒｒｙ Ｐｉ Ｐｉｃｏをつける。</h2>
+<p><img alt="" src="../img/build007.png" /></p>
+<h2 id="8b">8.基板Bに電池ボックスをはめ込みネジで固定する。</h2>
+<p><img alt="" src="../img/build008.png" /></p>
+<h2 id="93mm">９.赤色・黒色線の両端のビニル部分をニッパーで3mmほどはがす。赤色の線は＋(プラス)へ、黒色の線は−(マイナス)へ電池ボックスへはめ、はんだ付けする。</h2>
+<p><img alt="" src="../img/build009.png" /></p>
+<h2 id="10a">10.赤色・黒色の線の片一方は、基板Aの裏側の穴へ入れ(赤色の線は＋へ、黒色の線は−へ)、表側からはんだ付けする。</h2>
+<p><img alt="" src="../img/build010.png" /></p>
+<h2 id="11ab4">11.基板Aと基板Bを合わせ角の４箇所をネジで固定する。</h2>
+<p><img alt="" src="../img/build011.png" /></p>
+<h2 id="12loralora">12.ＬｏＲａモジュールの穴の数にあわせてピンヘッダを切る。本体にピンヘッダ、ＬｏＲａモジュールを差し込みはんだ付けする。</h2>
+<p><img alt="" src="../img/build012.png" /></p>
+<h2 id="13lora">13.最後にＬｏＲａ用アンテナをつけ完成。</h2>
+<p><img alt="" src="../img/build013.png" /></p>
                 
               
               
@@ -376,7 +548,7 @@ Arduino IDEのメニューから、<code>[Tools]-[Board]-[Boards Manager...]</co
   
     <nav class="md-footer__inner md-grid" aria-label="フッター">
       
-        <a href="../build/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../list/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -385,19 +557,19 @@ Arduino IDEのメニューから、<code>[Tools]-[Board]-[Boards Manager...]</co
               <span class="md-footer__direction">
                 前
               </span>
-              組立手順
+              部品リスト
             </div>
           </div>
         </a>
       
       
-        <a href="../schematic/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../dev/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 次
               </span>
-              回路図
+              開発環境
             </div>
           </div>
           <div class="md-footer__button md-icon">
